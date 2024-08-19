@@ -155,10 +155,12 @@ nav {
 }
 
 .image__container img {
-  width: 100%;
-  max-width: 300px;
+  width: 400px;
+  max-width: 500px;
   margin: auto;
+  margin-bottom: 100px;
   border-radius: 10px;
+  align-items: center;
 }
 
 .image__container img:nth-child(1) {
