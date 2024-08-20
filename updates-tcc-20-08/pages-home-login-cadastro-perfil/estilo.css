@@ -1,0 +1,198 @@
+/* !CORES! */
+:root{
+    --Preto-Cor: #000;
+    --Branco-Cor: #FFF;
+    --Roxo-Cor: #9800D1;
+    --Cinza-cor: #e0e0e0;
+    --Cinza-transparente: #6e6e6e60;
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+/* !BODY! */
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-y: hidden;
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+/* !FONTE! */
+
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1.3em;
+}
+h3{
+    font-size: 1em;
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+/* !CONTAINER! */
+.container_perfil{
+    height: 100vh;
+    width: 100%;
+}
+
+/* HEADER */
+.header_pagina{
+    width: 100%;
+    height: 10%;
+    background-color: var(--Roxo-Cor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 30%;
+    position: fixed;
+    left: 0;
+}
+.logo img{
+    width: 100%;
+}
+.minha_conta{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1%;
+}
+.minha_conta h1{
+    margin-left: 1%;
+    color: var(--Branco-Cor);
+}
+.minha_conta i{
+    font-size: 20px;
+    color: var(--Branco-Cor);
+}
+
+/* PERFIL */
+.perfil{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Cinza-cor);
+}
+.header_perfil{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.voltar{
+    width: 30%;
+    position: fixed;
+    left: 0;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.voltar i{
+    font-size: 20px;
+    color: var(--Roxo-Cor);
+}
+.titulo{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.espaco_infos{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.perfil_container{
+    width: 80%;
+    height: 70%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 3px rgba(158,146,158,1);
+    background-color: var(--Branco-Cor);
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.perfil_header{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.foto_perfil .fa-circle-user{
+    font-size: 80px;
+}
+.foto_perfil i{
+    color: var(--Roxo-Cor);
+}
+.nome_email h1{
+    color: var(--Roxo-Cor);
+}
+.infos_perfil{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.infos_esquerda, .infos_direita{
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.info{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 1%;
+}
+.info input{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px var(--Cinza-transparente);
+}
+.info input:focus{
+    outline: none;
+    border-bottom: solid 2px var(--Preto-Cor);
+}
+.info i{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: var(--Cinza-transparente);
+}
+.row{
+    height: 70%;
+    border: solid 1.5px var(--Cinza-transparente);
+}
